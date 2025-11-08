@@ -1,0 +1,76 @@
+TripMind – Autonomous AI Travel Assistant Website
+Prompt:
+You are an expert full-stack AI developer and UX designer. Build a complete, modern, responsive website for the project:
+💡 Project Title: TripMind – Your Autonomous Travel Agent
+🪄 Tagline: “Plan smarter. Travel faster. Book automatically.”
+🌍 Concept:
+TripMind is an AI-powered autonomous travel assistant that:
+Understands travel intent (e.g., “Book my trip from home to office every weekday” or “Plan my weekend trip to Delhi and back”).
+Analyzes possible routes and modes (cab, metro, auto, bus, train, flight, etc.).
+Compares fares and time from multiple providers (Uber, Ola, Rapido, etc.).
+Suggests optimal, personalized travel plans based on time, cost, and convenience.
+Automatically books rides and return trips.
+Learns user preferences over time (budget, mode, timings).
+🧱 Requirements:
+Design System & Frontend
+Modern, clean, futuristic UI with glassmorphism or minimal travel theme.
+Landing page with:
+Hero section (Tagline + “Plan My Trip” button)
+Features section (icons + descriptions)
+Demo section (how it works)
+Testimonials / Partners
+Footer with contact + social links
+Use React + TailwindCSS (or Next.js if available).
+Include smooth animations (Framer Motion or GSAP).
+Core Pages
+/ (Home)
+/plan – page with an AI chat interface to plan a trip (user types travel query)
+/bookings – dashboard showing previous and upcoming trips
+/preferences – user profile to set travel preferences (budget, favorite apps, time windows)
+Backend Functionality
+Use FastAPI / Node.js (Express) backend
+Integrate mock APIs for Uber/Ola/Rapido pricing (or use sample JSON)
+Store user preferences in a small database (SQLite or MongoDB)
+Include basic CRUD for user trips and preferences
+AI Integration
+Include a chatbot or assistant section using OpenAI API simulation (can use a mock endpoint)
+Should respond to prompts like:
+“Book my trip to Mumbai this weekend”
+“Find the cheapest route from Delhi to Agra”
+Display results as cards with route details, price, time, and “Book Now” button
+Performance & Hosting
+Optimized for fast loading
+Fully responsive (mobile-first)
+Prepare for deployment on Vercel or Netlify
+Bonus Features (Optional but Appreciated)
+Integrate live map (Google Maps or Leaflet) preview of route
+Include dark mode
+Add AI memory simulation to recall last user preference
+🎯 Goal:
+Generate complete production-ready code (frontend + backend + assets) structured in folders:
+/client
+  /src
+    components/
+    pages/
+    styles/
+/server
+  /api
+  /models
+  /routes
+  /config
+/database
+Include example .env variables and mock data for testing.
+Make sure everything connects and runs locally with simple commands like:
+npm run dev
+or
+python main.py
+Deliver:
+Full codebase
+README.md with setup instructions
+Example demo content and screenshots if possible
+Tone: Futuristic, professional, and traveler-friendly.
+Target Users: Frequent commuters and weekend travelers.
+Color Palette: Sky blue, navy, white, light gray.
+End of Prompt
+Would you like me to customize this prompt for a specific AI platform (like ChatGPT Code Interpreter, v0.dev, or Replit AI Agent) so it automatically structures the folders and runs code?
+That way, you can paste it directly and get a working full project in one go.
